@@ -1,12 +1,50 @@
-# React + Vite
+# 🌍 SafeHaven - Disaster Relief Web Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+SafeHaven, doğal afetlere hazırlık, güvenli sığınak bulma ve hava durumu takibi gibi önemli özellikleri bir araya getiren kullanıcı dostu ve mobil uyumlu bir web uygulamasıdır.
 
-Currently, two official plugins are available:
+## 🚀 Özellikler
+✅ Avrupa ve Türkiye'deki güvenli sığınaklar harita üzerinde gösterilir  
+✅ Open-Meteo hava durumu API entegrasyonu  
+✅ Dinamik ülke ve şehir seçimiyle hava durumu takibi  
+✅ Modern, responsive ve animasyonlu tasarım  
+✅ Formspree entegrasyonlu iletişim formu  
+✅ Node.js Express backend ile API desteği
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🖼️ **Proje Görselleri**
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🌐 Ana Sayfa
+![Home Page](https://github.com/barisyonel/SafeHaven-Disaster-Relief-App/assets/homepage.png)
+
+### 🗺️ Harita ve Sığınaklar
+![Shelter Map](https://github.com/barisyonel/SafeHaven-Disaster-Relief-App/assets/shelters.png)
+
+### 🌦️ Hava Durumu Modülü
+![Weather App](https://github.com/barisyonel/SafeHaven-Disaster-Relief-App/assets/weather.png)
+
+### 📩 İletişim Formu
+![Contact Form](https://github.com/barisyonel/SafeHaven-Disaster-Relief-App/assets/contact.png)
+
+> 📝 *Not:* Görseller için **assets klasörünü** oluşturup **GitHub'a yükledikten sonra** URL'leri güncelleyebilirsin.
+
+---
+
+## 🗺️ Kullanılan Teknolojiler
+- React.js
+- React Router DOM
+- React Leaflet (OpenStreetMap)
+- Open-Meteo API
+- HTML / CSS Animasyon
+- Formspree
+- Node.js + Express.js
+- Axios
+
+---
+
+## 📂 Kurulum
+```bash
+git clone https://github.com/barisyonel/SafeHaven-Disaster-Relief-App.git
+cd SafeHaven-Disaster-Relief-App
+npm install
+npm run dev
