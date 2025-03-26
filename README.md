@@ -15,18 +15,16 @@ SafeHaven, doğal afetlere hazırlık, güvenli sığınak bulma ve hava durumu 
 ## 🖼️ **Proje Görselleri**
 
 ### 🌐 Ana Sayfa
-![Home Page](https://github.com/barisyonel/SafeHaven-Disaster-Relief-App/assets/homepage.png)
+![Home Page](src/assets/homepage.png)
 
 ### 🗺️ Harita ve Sığınaklar
-![Shelter Map](https://github.com/barisyonel/SafeHaven-Disaster-Relief-App/assets/shelters.png)
+![Shelter Map](src/assets/shelters.png)
 
 ### 🌦️ Hava Durumu Modülü
-![Weather App](https://github.com/barisyonel/SafeHaven-Disaster-Relief-App/assets/weather.png)
+![Weather App](src/assets/weather.png)
 
 ### 📩 İletişim Formu
-![Contact Form](https://github.com/barisyonel/SafeHaven-Disaster-Relief-App/assets/contact.png)
-
-> 📝 *Not:* Görseller için **assets klasörünü** oluşturup **GitHub'a yükledikten sonra** URL'leri güncelleyebilirsin.
+![Contact Form](src/assets/contact.png)
 
 ---
 
