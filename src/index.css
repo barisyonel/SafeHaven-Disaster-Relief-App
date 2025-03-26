@@ -1,0 +1,92 @@
+@import 'leaflet/dist/leaflet.css';
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body, #root {
+  height: 100%;
+  overflow-x: hidden;
+  background-color: #f9f9f9;
+  font-family: 'Segoe UI', sans-serif;
+}
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+.main-content {
+  flex: 1;
+}
+.fade-in {
+  animation: fadeIn 1.5s ease forwards;
+}
+.slide-up {
+  animation: slideUp 1.5s ease forwards;
+}
+@keyframes fadeIn {
+  0% { opacity: 0; transform: translateY(30px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+@keyframes slideUp {
+  0% { opacity: 0; transform: translateY(50px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+/* Leaflet Harita Profesyonel Görünüm */
+.leaflet-container {
+  width: 100% !important;
+  height: 600px !important;
+  min-height: 450px;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  border: 2px solid #1D3557;
+  background: #e6ecf0;
+  z-index: 10;
+}
+
+/* Zoom butonlarını modernleştir */
+.leaflet-control-zoom {
+  background: #1D3557;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
+.leaflet-control-zoom a {
+  color: #fff !important;
+  background-color: #1D3557 !important;
+  font-weight: bold;
+}
+.leaflet-control-zoom a:hover {
+  background-color: #457b9d !important;
+}
+
+/* Marker Popup Stili */
+.leaflet-popup-content {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #1D3557;
+}
+
+/* Mobil Uyum - Harita net görünür */
+@media (max-width: 768px) {
+  .leaflet-container {
+    height: 400px !important;
+    min-height: 350px !important;
+    border-radius: 10px;
+  }
+}
+button, a {
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button:hover, a:hover {
+  opacity: 0.8;
+}
+input, textarea, select {
+  padding: 0.7rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 100%;
+  margin-bottom: 1rem;
+}

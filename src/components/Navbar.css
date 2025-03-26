@@ -1,0 +1,73 @@
+/* Navbar Genel */
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #1D3557;
+	padding: 1rem 2rem;
+	color: #fff;
+	position: sticky;
+	top: 0;
+	z-index: 1000;
+  }
+  
+  .logo {
+	font-size: 1.8rem;
+	font-weight: bold;
+	color: #fff;
+  }
+  
+  /* Menü linkleri */
+  .nav-links {
+	display: flex;
+	gap: 2rem;
+	transition: max-height 0.3s ease;
+  }
+  
+  .nav-links a {
+	color: #fff;
+	font-weight: 500;
+	text-decoration: none;
+	transition: color 0.3s ease;
+  }
+  
+  .nav-links a:hover {
+	color: #FFD700; /* Altın sarısı hover */
+  }
+  
+  /* Hamburger */
+  .hamburger {
+	display: none;
+	cursor: pointer;
+	font-size: 2rem;
+	color: #fff;
+  }
+  
+  /* Mobil uyum */
+  @media (max-width: 768px) {
+	.hamburger {
+	  display: block;
+	}
+  
+	.nav-links {
+	  position: absolute;
+	  top: 70px;
+	  right: 0;
+	  background-color: #1D3557;
+	  flex-direction: column;
+	  width: 100%;
+	  max-height: 0;
+	  overflow: hidden;
+	}
+  
+	.nav-links.open {
+	  max-height: 500px;
+	  padding: 1rem;
+	}
+  
+	.nav-links a {
+	  padding: 1rem 0;
+	  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+	}
+  }
+  
